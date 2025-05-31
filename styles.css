@@ -1,0 +1,126 @@
+body {
+  overflow: hidden;
+}
+
+button {
+  background-color: blue;
+  color: aliceblue;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  transform: scale(1.3);
+}
+
+.homescherm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sausKeuze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sausContainer {
+  display: flex;
+  padding-top: 4em;
+}
+
+.sausOptie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sausOptie img {
+  width: 60%;
+}
+
+.sausOptie p {
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+.enkelePizza {
+  width: 90%;
+  margin-top: 5.5em;
+  margin-left: 2em;
+}
+
+.background {
+  background-image: url(img/achtergrond.png);
+  height: 100vh;
+}
+
+.toppings {
+  margin-left: 1em;
+  width: 25%;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.toppingKaas {
+  margin-left: 1em;
+  width: 50%;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 22%;
+  left: 58%;
+  width: 32%;
+}
+
+.container {
+  display: flex;
+}
+
+.kolom {
+  flex: 1;
+  padding: 10px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: rgb(7, 7, 63);
+  padding-top: 2em;
+}
+
+.pizzaOven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizzaVersieren {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizzaKlaar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgEindPizza {
+  height: 50%;
+  margin-top: 4em;
+}
+
+.hidden {
+  display: none;
+}

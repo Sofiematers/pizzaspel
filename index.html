@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/pizzaklaar" href="img/pizzaklaar.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js" defer></script>
+    <title>Pizzabakkerij Sofie</title>
+  </head>
+  <body>
+    <section class="homescherm background">
+      <h1>Pizzabakkerij Sofie</h1>
+
+      <img src="img/pizzaklaar.png" alt="" class="imgEindPizza" />
+
+      <button id="startGame">Start game</button>
+    </section>
+
+    <section class="sausKeuze background hidden">
+      <h1>Kies je saus!</h1>
+
+      <div class="sausContainer">
+        <div class="sausOptie">
+          <img id="bbq" src="img/bbqsaus.png" alt="bbqsaus pizza" />
+          <p>BBQ saus</p>
+        </div>
+
+        <div class="sausOptie">
+          <img id="tomaat" src="img/tomatensaus.png" alt="tomatensaus pizza" />
+          <p>Tomaten saus</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pizzaVersieren background hidden">
+      <div class="container">
+        <div class="kolom">
+          <img
+            class="toppingKaas"
+            id="kaasbakje"
+            src="img/kaasbak.png"
+            alt="bak met kaas"
+          />
+          <br />
+          <img
+            class="toppings"
+            id="peperonibakje"
+            src="img/peperoni.png"
+            alt="bakje met peperoni"
+          />
+          <img
+            class="toppings"
+            id="paprikabakje"
+            src="img/paprika.png"
+            alt="bakje met paprika"
+          />
+          <br />
+          <img
+            class="toppings"
+            id="ananasbakje"
+            src="img/ananas.png"
+            alt="bakje met ananas"
+          />
+          <img
+            class="toppings"
+            id="champibakje"
+            src="img/Champignons.png"
+            alt="bakje met Champignons"
+          />
+        </div>
+        <div class="kolom">
+          <img
+            class="enkelePizza hidden"
+            id="tomaat-pizza"
+            src="img/tomatensaus.png"
+            alt="tomatensaus pizza"
+          />
+          <img
+            class="enkelePizza hidden"
+            id="bbq-pizza"
+            src="img/bbqsaus.png"
+            alt="bbqsaus pizza"
+          />
+          <img
+            class="topping overlay hidden"
+            id="kaas"
+            src="img/kaas.png"
+            alt="kaas op de pizza"
+          />
+          <img
+            class="topping overlay hidden"
+            id="peperoni"
+            src="img/peperonilos.png"
+            alt="peperoni op de pizza"
+          />
+          <img
+            class="topping overlay hidden"
+            id="paprika"
+            src="img/paprikalos.png"
+            alt="paprika op de pizza"
+          />
+          <img
+            class="topping overlay hidden"
+            id="ananas"
+            src="img/ananaslos.png"
+            alt="ananas op de pizza"
+          />
+          <img
+            class="topping overlay hidden"
+            id="champignons"
+            src="img/champignonslos.png"
+            alt="champignons op de pizza"
+          />
+        </div>
+      </div>
+
+      <button id="naarOvenKnop">Doe je pizza in de oven</button>
+    </section>
+
+    <section class="pizzaOven background hidden">
+      <h1>Pizza zit in de oven!</h1>
+
+      <img src="img/pizzainoven.png" alt="pizza zit in de oven met toppings" />
+
+      <button id="uitOvenKnop">Haal je pizza uit de oven!</button>
+    </section>
+
+    <section class="pizzaKlaar background hidden">
+      <h1>Je pizza is gelukt!</h1>
+
+      <img
+        class="imgEindPizza"
+        src="img/pizzaklaar.png"
+        alt="Klaar gebakken pizza met toppings"
+      />
+
+      <button id="nieuwePizzaKnop">Maak een nieuwe pizza</button>
+    </section>
+  </body>
+</html>
